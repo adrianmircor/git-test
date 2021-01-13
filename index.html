@@ -5,5 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TEST</title>
   </head>
-  <body></body>
+  <body>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias, tempora?
+    </p>
+    <input type="text" onkeyup="mongol()" id="raa2" />
+    <div id="raa"></div>
+
+    <script>
+      function mongol() {
+        let inputtt = document.getElementById("raa2").value;
+        document.getElementById("raa").innerHTML = inputtt;
+      }
+    </script>
+  </body>
 </html>
